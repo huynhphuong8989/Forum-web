@@ -1,13 +1,11 @@
 <!doctype html>
-<html lang="en" ng-app="forum">
+<html lang="en" ng-app="forumApp">
 <head>
-  <title>Forun</title>
+  <title>Forum</title>
   
 
   <script src="javascript/angular-1.4.5/angular.min.js"></script>
   <script src="javascript/angular-1.4.5/angular-route.js"></script>
-  
- 
   <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.5/css/bootstrap.min.css">
 
   <!-- app -->
@@ -20,10 +18,17 @@
  
 
   <!-- controllers -->
-  
-  
+  <script src="javascript/app/controllers/home-controller.js"></script>
+  <script src="javascript/app/controllers/fordev-controller.js"></script>
+  <script src="javascript/app/controllers/question-controller.js"></script>
 </head>
-<body ng-controller="">
-	
+<body ng-controller="HomeCtrl">
+<div class="menu">
+    <ul>
+      <li><a href="#/home">HOME</a></li>
+      <li><a href="#/fordev">FORDEV</a></li>
+      <li><a href="#/question">QUESTIONS</a></li>
+    </ul>
+  </div>
 </body>
 </html>
