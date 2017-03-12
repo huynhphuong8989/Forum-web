@@ -1,0 +1,157 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff !important;
+}
+.navigation{
+	background-color: #00796B;
+	height: 55px;
+	color: white;
+}
+.navigation img{
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.navigation .name{
+	font-size: 29px;
+    margin-top: 7px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+.navigation input{
+	background-color: #00897B;
+	border: none;
+	color: white;
+}
+.navigation .glyphicon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.navigation .right-inner-addon {
+	margin-top: 10px;
+}
+.navigation input::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+    font-size: 17px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+.navigation input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #f51;
+}
+.navigation input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #f51;
+}
+.navigation. input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #f51;
+}
+.navigation button{
+	background-color: #009688;
+    border-color: #009688;
+    width: 100px;
+    margin-top: 10px;
+}
+.navigation button:HOVER{
+	background-color: #00796B;
+	border-color: #009688;
+}
+.menu{
+	background-color: #009688;
+	height: 70px;
+	color: white;
+    font-size: 20px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 22px;
+    padding-top: 20px;
+    box-shadow: 0px 4px 6px #888888;
+    margin-bottom: 30px;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+}
+.menu ul li:HOVER {
+	border-bottom: 2px solid;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+.content{
+	height: 750px;
+}
+.content .left{
+	background-color: #F7F7F7;
+	margin-left: 30px;
+    border-radius: 5px;
+}
+.content .left ul{
+	padding-left: 10px;
+    padding-top: 15px;
+}
+.content .left ul li{
+	margin-bottom: 10px;
+}
+.content .left .title{
+	color: #03a9f4;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+.content .right{
+	border-radius: 5px;
+	height: 470px;
+	background-color: #F7F7F7;
+	width: 20%;
+	padding-top: 5px;
+    padding-left: 5px;
+    box-shadow: 0px 4px 6px #888888;
+}
+.content .right .chatting .messages{
+	width: 104%;
+	height: 400px;
+	background-color: white;
+	border-radius: 5px;
+}
+.content .right .chatting .messages ul{
+	list-style-type: none;
+	padding-left: 5px;
+}
+.content .right .chatting input{	
+	height: 40px;
+    width: 104%;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 1px;
+    padding-left: 5px;
+}
+.footer {
+	background-color: #424242;
+	height: 150px;
+	color: white;
+	padding-top: 25px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+.footer a{
+	text-decoration: none;
+	color: #9e9e9e;
+}
+.footer a:HOVER{
+	color: white;
+}
+.footer .foo{
+	border-top:	1px solid white;
+}
+.footer .foo .title{
+	margin-bottom: 10px;
+}
+.footer .foo .text{
+	font-size: 12px;
+	color: #9e9e9e;
+}

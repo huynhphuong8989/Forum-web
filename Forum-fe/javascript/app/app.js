@@ -1,15 +1,23 @@
-var forumApp = angular.module('forumApp', [
+var vitechApp = angular.module('vitechApp', [
   'ngRoute',
 ]);
 
-forumApp.config(['$routeProvider',
+vitechApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-       when('/question', {
-        templateUrl: 'views/question.html',
-        controller: 'QuestionCtrl'
+      when('/topic', {
+        templateUrl: 'views/topic.html',
+        controller: 'TopicCtrl'
       }).
-        when('/fordev', {
+      when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl'
+      }).
+      when('/ebook', {
+        templateUrl: 'views/ebook.html',
+        controller: 'EbookCtrl'
+      }).
+      when('/fordev', {
         templateUrl: 'views/fordev.html',
         controller: 'FordevCtrl'
       }).
