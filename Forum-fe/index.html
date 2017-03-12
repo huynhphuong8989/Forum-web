@@ -4,12 +4,13 @@
   <title>Forum</title>
   <link rel="shortcut icon" href="assets/logo.png">
 
-  <!--boostrap-->
+  <!---->
   
   <script src="css/bootstrap-3.3.5/js/jquery-3.1.1.min.js"></script>
   <script src="javascript/angular-1.4.5/angular.min.js"></script>
   <script src="javascript/angular-1.4.5/angular-route.js"></script>
   <script src="css/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript/ck/ckeditor.js"></script>
 
   <link rel="stylesheet" type="text/css" href="css/forum.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.5/css/bootstrap.min.css">  
@@ -38,7 +39,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="col-md-5"><button class="btn btn-success">LOGIN</button></div>
-			<div class="col-md-4"><button class="btn btn-primary">REGISTER</button></div>
+			<div class="col-md-5"><button class="btn btn-primary">REGISTER</button></div>
 		</div>
 	</div>
 	<div class="menu">
@@ -50,34 +51,11 @@
 			<li><a href="#/ebook">EBOOK</a></li>
 			<li><button class="btn btn-warning"
 		 data-toggle="modal" data-target="#myModal">QUESTION</button>
-
-		 </li>
+		 	</li>
 		</ul>
 	</div>
-	<div class="modal fade" id="myModal" role="dialog">
-	<div class="modal-content">
-		<div class="modal-header">
-			<div class="form-group">
-				<label for="Question">Title:</label>
-				<input type="text" class="form-control" id="question">
-			</div>
-		</div>
-
-		<div class="modal-body">
-			<div class="form-group">
-				<label for="Content">Content</label>
-				<input type="text" class="form-control" id="content"></input>
-			</div>
-		</div>
-		<div class="modal-footer">
-			<button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
-			<button type="button" class="btn btn-danger" data-dismiss="modal">
-			Cancel			
-			</button>
-		</div>
-	</div>
-		</div>
-	</div>
+	
+	<div ng-include="'views/templates/modal.html'" ></div>
 	<div ng-view></div>
 </body>
 </html>

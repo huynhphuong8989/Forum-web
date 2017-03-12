@@ -1,0 +1,22 @@
+<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="form-group">
+					<input type="text" class="form-control" id="question" placeholder="Title">
+				</div>
+			</div>
+
+			<div class="modal-body">
+				<div class="form-group">
+					<textarea class="ckeditor" cols="80" id="editor1" name="editor1" rows="10"></textarea>
+        			<script type="text/javascript">
+        				CKEDITOR.replace( 'editor1' );
+      				</script>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+			</div>
+		</div>
+</div>
