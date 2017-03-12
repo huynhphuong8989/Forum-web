@@ -5,6 +5,10 @@ var vitechApp = angular.module('vitechApp', [
 vitechApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
+      when('/home', {
+        templateUrl: 'views/home.html',
+        controller: 'HomeCtrl'
+      }).
       when('/topic', {
         templateUrl: 'views/topic.html',
         controller: 'TopicCtrl'
