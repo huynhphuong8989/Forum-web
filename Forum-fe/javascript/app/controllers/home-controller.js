@@ -1,3 +1,3 @@
 vitechApp.controller('HomeCtrl', ['$scope', function($scope){
-	$scope.message="Home"; 
+	$scope.message="This is Home page"; 
 }]);
