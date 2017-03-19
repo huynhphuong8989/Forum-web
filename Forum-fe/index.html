@@ -39,7 +39,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="col-md-5"><button class="btn btn-success" data-toggle="modal" data-target="#myLogin">LOGIN</button></div>
-			<div class="col-md-5"><button class="btn btn-primary">REGISTER</button></div>
+			<div class="col-md-5"><button class="btn btn-primary" data-toggle="modal" data-target="#myRegister">REGISTER</button></div>
 		</div>
 	</div>
 	<div class="menu">
@@ -57,6 +57,7 @@
 	
 	<div ng-include="'views/templates/modal.html'" ></div>
 	<div ng-include="'views/templates/login.html'" ></div>
+	<div ng-include="'views/templates/register.html'" ></div>
 	<div ng-view></div>
 </body>
 </html>
